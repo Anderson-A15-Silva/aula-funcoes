@@ -3,7 +3,8 @@
 /*
 Exercício 1
 Resposta A:
-10, 50
+10
+50
 Resposta B:
 Como o valor dentro da função não foi colocado dentro do 'console.log' ele não exibiria na página da web.
 */
@@ -45,12 +46,7 @@ exercicioUsuario()
 Resposta B:
 
 let exercicioUsuario = (nome, idade, endereco, profissao) => {
-    const nome = prompt("Qual o seu nome?");
-    const idade = prompt("Qual a sua idade?");
-    const endereco = prompt("Qual é o seu endereço?");
-    const profissao = prompt("Qual a sua profissão?");
-
-    const informacoesUsuario = `Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}`;
+    const informacoesUsuario = "Eu sou Anderson, tenho 15 anos, moro em São Leopoldo e sou estudante.";
     
     console.log(informacoesUsuario);
 }
@@ -63,7 +59,7 @@ Exercício 2
 Resposta A:
 
 let exercicioNumbers = (a, b) => {
-    const soma = a * b;
+    const soma = a + b;
     console.log(soma);
 }
 
@@ -74,14 +70,14 @@ exercicioNumbers(25, 12)
 Resposta B:
 
 let numberVerificacaoResultado = (a, b) => {
-    const soma = a > b;
-    console.log(soma);
+    const verificacao = a > b;
+    console.log(verificacao);
 }
 numberVerificacaoResultado(15, 10)
 */
 
 /*
-Resposta C (Incompleta)
+Resposta C
 
 let numberVerificacaoTipo = (a, b) => {
     const verificacaoUm = a % 2;
@@ -111,7 +107,7 @@ textoQuantidade (prompt("Insira uma frase:"));
 /*
 Exercício 3
 Resposta:
-*/
+
 let operacoesBasicas = (a, b) => {
     const soma = a + b;
     const subtracao = a - b;
@@ -128,3 +124,4 @@ let operacoesBasicas = (a, b) => {
 const primeiroNumero = prompt("Digite um número: ");
 const segundoNumero = prompt("Digite outro número: ");
 operacoesBasicas(Number(primeiroNumero), Number(segundoNumero))
+*/
