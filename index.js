@@ -98,7 +98,7 @@ Resposta D:
 let textoQuantidade = (mensagem) => {
     const mensagemUsuario = mensagem;
     console.log(mensagemUsuario.length);
-    const mensagemMinuscula = mensagemUsuario.toLowerCase();
+    const mensagemMinuscula = mensagemUsuario.toUpperCase();
     console.log(mensagemMinuscula);
 }
 textoQuantidade (prompt("Insira uma frase:"));
