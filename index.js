@@ -125,3 +125,16 @@ const primeiroNumero = prompt("Digite um número: ");
 const segundoNumero = prompt("Digite outro número: ");
 operacoesBasicas(Number(primeiroNumero), Number(segundoNumero))
 */
+
+/*
+Desafio 1 (Incompleto)
+Resposta:
+
+let exercicioDesafioUm = (mensagem) => {
+    const desafioUmFrase = perguntaDesafioUm;
+    console.log(mensagem);
+}
+const perguntaDesafioUm = prompt("Digite uma mensagem: ");
+const respostaDesafioUm = desafioUmFrase;
+exercicioDesafioUm(respostaDesafioUm)
+*/
