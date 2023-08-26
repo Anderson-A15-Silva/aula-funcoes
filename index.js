@@ -28,11 +28,103 @@ cenouras crescem na terra, false
 Exercício 1 (Incompleto)
 Resposta A:
 
-const exercicioUsuario = () => {
-    const informacoesUsuario = "Eu sou Caio, tenho 23 anos, moro em São Paulo e sou estudante."
-    return informacoesUsuario
+
+let exercicioUsuario = () => {
+    const nomeUsuario = prompt("Qual o seu nome?");
+    const idadeUsuario = prompt("Qual a sua idade?");
+    const enderecoUsuario = prompt("Qual é o seu endereço?");
+    const profissaoUsuario = prompt("Qual a sua profissão?");
+    const informacoesUsuario = `Eu sou ${nomeUsuario}, tenho ${idadeUsuario} anos, moro em ${enderecoUsuario} e sou ${profissaoUsuario}`;
+    
+    console.log(informacoesUsuario);
 }
 
-const resposta = exercicioUsuario
-console.log(resposta)
+exercicioUsuario()
+
+
+Resposta B:
+
+let exercicioUsuario = (nome, idade, endereco, profissao) => {
+    const nome = prompt("Qual o seu nome?");
+    const idade = prompt("Qual a sua idade?");
+    const endereco = prompt("Qual é o seu endereço?");
+    const profissao = prompt("Qual a sua profissão?");
+
+    const informacoesUsuario = `Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}`;
+    
+    console.log(informacoesUsuario);
+}
+
+exercicioUsuario()
 */
+
+/*
+Exercício 2
+Resposta A:
+
+let exercicioNumbers = (a, b) => {
+    const soma = a * b;
+    console.log(soma);
+}
+
+exercicioNumbers(25, 12)
+*/
+
+/*
+Resposta B:
+
+let numberVerificacaoResultado = (a, b) => {
+    const soma = a > b;
+    console.log(soma);
+}
+numberVerificacaoResultado(15, 10)
+*/
+
+/*
+Resposta C (Incompleta)
+
+let numberVerificacaoTipo = (a, b) => {
+    const verificacaoUm = a % 2;
+    const verificacaoDois = b % 2;
+    const verificacaoTres = verificacaoUm == 0;
+    const verificacaoQuatro = verificacaoDois == 0;
+
+    console.log(verificacaoTres);
+    console.log(verificacaoQuatro);
+}
+
+numberVerificacaoTipo(10, 7)
+*/
+
+/*
+Resposta D:
+
+let textoQuantidade = (mensagem) => {
+    const mensagemUsuario = mensagem;
+    console.log(mensagemUsuario.length);
+    const mensagemMinuscula = mensagemUsuario.toLowerCase();
+    console.log(mensagemMinuscula);
+}
+textoQuantidade (prompt("Insira uma frase:"));
+*/
+
+/*
+Exercício 3
+Resposta:
+*/
+let operacoesBasicas = (a, b) => {
+    const soma = a + b;
+    const subtracao = a - b;
+    const multiplicacao = a * b;
+    const divisao = a / b;
+
+    console.log(`Números inseridos: ${primeiroNumero} e ${segundoNumero}`);
+    console.log(`Soma: ${soma}`);
+    console.log(`Diferença: ${subtracao}`);
+    console.log(`Multiplicação: ${multiplicacao}`);
+    console.log(`Divisão: ${divisao}`);
+}
+
+const primeiroNumero = prompt("Digite um número: ");
+const segundoNumero = prompt("Digite outro número: ");
+operacoesBasicas(Number(primeiroNumero), Number(segundoNumero))
