@@ -26,7 +26,7 @@ cenouras crescem na terra, false
 // Exercícios de escrita de código
 
 /*
-Exercício 1 (Incompleto)
+Exercício 1
 Resposta A:
 
 
@@ -130,11 +130,29 @@ operacoesBasicas(Number(primeiroNumero), Number(segundoNumero))
 Desafio 1 (Incompleto)
 Resposta:
 
-let exercicioDesafioUm = (mensagem) => {
-    const desafioUmFrase = perguntaDesafioUm;
+let exercicioDesafioPrimeiro = (mensagem) => {
+    const perguntaDesafioUm = mensagem
     console.log(mensagem);
 }
-const perguntaDesafioUm = prompt("Digite uma mensagem: ");
-const respostaDesafioUm = desafioUmFrase;
-exercicioDesafioUm(respostaDesafioUm)
+const respostaPrimeiroDesafio = prompt("Digite uma mensagem: ")
+exercicioDesafioPrimeiro(respostaPrimeiroDesafio)
+
+
+let exercicioDesafioSegundo = (a, b) => {
+    const soma = a + b
+}
+exercicioDesafioSegundo(12, 15)
+const resultadoDesafioSoma = exercicioDesafioSegundo(12, 15)
+exercicioDesafioPrimeiro(resultadoDesafioSoma)
+*/
+
+/*
+Desafio 2
+Resposta:
+
+const teoremaPitagoras = (a, b) => {
+    const hipotenusa = a * a + b * b
+    console.log(hipotenusa)
+}
+teoremaPitagoras(7, 9)
 */
